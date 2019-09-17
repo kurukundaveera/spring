@@ -47,8 +47,7 @@
 </repository>
 <snapshotRepository>
 <id>nexus</id>
-<name> Projectname </name>
-<url>http://18.218.225.139:8081/nexus/content/repositories/snapshots/</url>
+<url>http://18.218.225.139:8081/nexus/content/repositories/releases/</url>
 </snapshotRepository>
 </distributionManagement>
 
