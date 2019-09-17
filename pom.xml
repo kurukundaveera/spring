@@ -40,6 +40,18 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+<repository>
+<id>one</id>
+<name>Projectname</name>
+<url>http://18.218.225.139:8081/repository/Releases/</url>
+</repository>
+<snapshotRepository>
+<id>nexus</id>
+<name> Projectname </name>
+<url>http://18.218.225.139:8081/repository/Snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
